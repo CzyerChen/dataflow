@@ -1,0 +1,65 @@
+### core module
+- constant 
+    - MediaSourceTypeEnum       数据源类型
+    - MediaStatusEnum           机器源状态枚举类
+    - RdbmsOperationEnum        数据操作枚举类
+    - RdbmsOperTypeEnum         数据同步类型枚举类
+    - RetryModeEnum             重试枚举类
+    - SyncModeEnum              异步枚举类
+    - TaskStatusEnum            任务状态枚举类
+    - TaskSyncModeEnum          数据同步模式枚举类
+- domain 
+    - MediaMappingDTO           媒体映射类
+    - TableColumnMappingDTO     列映射类
+    - MediaMappingPO            数据源映射类
+    - TableColumnMappingPO      列映射类
+    - TableMappingPO            表映射类
+    - TaskPO                    任务实体类
+-mapper
+    - MediaMappingMapper        媒体映射mapper
+    - TableColumnMappingMapper  列映射mapper
+    - UserMapper                用户映射类
+    
+- model
+    - AbstractMessage           传输信息抽象类
+    - Parameter                 参数顶层抽象类
+    - PluginParameter           参数抽象类
+    - PositionInfo              位点信息
+    - RdbmsMessage              Kafka数据传输实体
+    - RdbmsOperation            rdbms数据操作类
+    - WriterParamEntry          写入库连接信息类
+    - MysqlReaderParameter      TaskReader的参数配置类
+    - PluginReaderParameter     reader 参数类，目前还没用
+    - PluginWriterParameter     writer 参数类
+    - RdbmsWriterParameter      rdbms -writer 参数类
+
+- repository 
+    - HBaseParamRepository
+    - MediaMappingRepository
+    - MediaSourceNodeRepository
+    - RdbmsParamRepository
+    - TableColumnMappingRepository
+    - TableMappingRepository
+    - TaskRepository
+    - UserRepository
+
+- service
+    - HBaseParamServiceImpl
+    - MediaMappingServiceImpl   
+    - MediaSourceNodeServiceImpl
+    - RdbmsParamServiceImpl
+    - TableColumnMappingServiceImpl
+    - TableMappingServiceImpl
+    - TaskServiceImpl
+    - UserServiceImpl
+    - HBaseParamService
+    - MediaMappingService
+    - MediaSourceNodeService
+    - RdbmsParamService
+    - TableColumnMappingService
+    - TableMappingService
+    - TaskService
+    - UserService
+
+- utils 
+    - JdbcConnectionUtils
