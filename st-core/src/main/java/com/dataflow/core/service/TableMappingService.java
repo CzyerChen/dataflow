@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * FanYang:表映射服务类
+ * 表映射服务类
  */
 public interface TableMappingService {
 

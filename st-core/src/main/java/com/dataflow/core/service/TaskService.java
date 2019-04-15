@@ -5,7 +5,7 @@ import com.dataflow.core.domain.TaskPO;
 import java.util.List;
 
 /**
- * Qihua :任务接口服务类
+ *任务接口服务类
  */
 public interface TaskService {
     public TaskPO saveTask(TaskPO taskPO);

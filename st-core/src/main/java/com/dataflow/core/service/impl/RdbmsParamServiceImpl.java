@@ -12,10 +12,6 @@ import javax.annotation.Resource;
 import javax.transaction.Transactional;
 import java.util.List;
 
-/**
- * Yang Fan
- * 1.缺乏注释，建议补全
- */
 @Service("rdbmsParamServiceImpl")
 public class RdbmsParamServiceImpl implements RdbmsParamService {
 

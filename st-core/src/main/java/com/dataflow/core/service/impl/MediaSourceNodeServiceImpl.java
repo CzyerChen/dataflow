@@ -8,9 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-/**
-Qi Hua  媒体节点服务类
- */
 @Service
 public class MediaSourceNodeServiceImpl implements MediaSourceNodeService {
 	@Autowired

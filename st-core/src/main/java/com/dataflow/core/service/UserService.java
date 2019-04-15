@@ -4,7 +4,7 @@ package com.dataflow.core.service;
 import com.dataflow.common.domain.dto.UserDTO;
 
 /**
- * Ziyan:用户服务类
+ * 用户服务类
  */
 public interface UserService {
 

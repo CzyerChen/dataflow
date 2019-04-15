@@ -5,7 +5,7 @@ import com.dataflow.common.domain.RdbmsParamPO;
 import java.util.List;
 
 /**
- * Yang Fan:关系数据库参数接口服务类
+ * 关系数据库参数接口服务类
  */
 public interface RdbmsParamService {
 

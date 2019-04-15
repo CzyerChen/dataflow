@@ -14,13 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/*
- *Yang Fan
- * 1.缺乏注释
- *
- * ziyan:findIdsByMediaMappingId
- *
- */
+
 @Service("tableMappingServiceImpl")
 public class TableMappingServiceImpl implements TableMappingService {
     private final Logger logger = LoggerFactory.getLogger(getClass());

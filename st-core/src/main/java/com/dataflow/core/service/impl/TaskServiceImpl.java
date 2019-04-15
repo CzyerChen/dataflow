@@ -12,16 +12,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Qi Hua
- * 1.请注意，不在service层直接做返回数据的封装
- * 2.重构如下
- * 3.缺乏注释
- * 4.软删除
- *
- * Ziyan:
- * 合理任务的查找
- */
+
 @Service
 public class TaskServiceImpl implements TaskService {
 

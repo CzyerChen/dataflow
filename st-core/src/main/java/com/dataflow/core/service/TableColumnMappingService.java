@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Ziyan: 列映射服务类
+ * 列映射服务类
  */
 public interface TableColumnMappingService {
 

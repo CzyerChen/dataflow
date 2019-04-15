@@ -6,9 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Qi Hua
- */
 public interface TaskRepository extends JpaRepository<TaskPO,String> {
      TaskPO findByIdAndDeleted(String id, boolean deleted);
 

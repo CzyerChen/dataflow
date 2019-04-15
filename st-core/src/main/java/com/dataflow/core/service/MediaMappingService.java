@@ -6,7 +6,7 @@ import com.dataflow.core.domain.dto.MediaMappingDTO;
 import java.util.Map;
 
 /**
- * ClaireChen 数据源映射接口服务类
+ * 数据源映射接口服务类
  */
 public interface MediaMappingService {
     public MediaMappingDTO saveMediaMapping(MediaMappingDTO dto);
