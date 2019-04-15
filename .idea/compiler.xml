@@ -9,6 +9,7 @@
         <module name="st-common" />
         <module name="st-core" />
         <module name="st-management" />
+        <module name="st-worker-rdbms" />
       </profile>
     </annotationProcessing>
   </component>

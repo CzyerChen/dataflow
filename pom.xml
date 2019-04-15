@@ -12,6 +12,7 @@
         <module>st-common</module>
         <module>st-core</module>
         <module>st-management</module>
+        <module>st-worker-rdbms</module>
     </modules>
 
     <parent>
